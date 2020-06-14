@@ -6,6 +6,34 @@
 	"configurations": [
     {
       "type": "java",
+      "name": "CodeLens (Launch) - TestArrayCopy",
+      "request": "launch",
+      "mainClass": "TestJava.TestArrayCopy",
+      "projectName": "javaStu_414008a5"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - TestArray",
+      "request": "launch",
+      "mainClass": "TestJava.TestArray",
+      "projectName": "javaStu_414008a5"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - TestJava",
+      "request": "launch",
+      "mainClass": "TestJava.TestJava",
+      "projectName": "javaStu_414008a5"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - TestString",
+      "request": "launch",
+      "mainClass": "String.TestString",
+      "projectName": "javaStu_414008a5"
+    },
+    {
+      "type": "java",
       "name": "CodeLens (Launch) - TestInnerClass",
       "request": "launch",
       "mainClass": "Oop2.TestInnerClass",

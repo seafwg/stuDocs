@@ -603,14 +603,14 @@ class Person extends Human { // extends 关键字
 }
 ```
 
+##### 3.2.1 修饰符：
 
-
-| 修饰符    | 同一个类 | 同一个包 | 子类[其他包中的子类] | 所有类[其他包中的类] |
-| --------- | -------- | -------- | -------------------- | -------------------- |
-| private   | √        | ×        | ×                    | ×                    |
-| default   | √        | √        | ×                    | ×                    |
-| protected | √        | √        | √                    | ×                    |
-| public    | √        | √        | √                    | √                    |
+| 修饰符    | 同一个类 | 同一个包 | 子类[同包中的子类] | 所有类[同包中的类] |
+| --------- | -------- | -------- | ------------------ | ------------------ |
+| private   | √        | ×        | ×                  | ×                  |
+| default   | √        | √        | ×                  | ×                  |
+| protected | √        | √        | √                  | ×                  |
+| public    | √        | √        | √                  | √                  |
 
 ### 3.2 抽象类：
 
@@ -812,15 +812,107 @@ class OuterClass {
 }
 ```
 
+## 四. String类：
 
+**String类又称作不可变字符序列。**
 
+String位于java.lang包中，Java程序默认导入java.lang包下的所有类
 
+```java
+package String;
 
+public class TestString {
+  public static void main(String[] args) {
+    String s1 = "core Java";
+    String s2 = "Core Java";
+    System.out.println(s1.charAt(3));// 提取下标为3的字符
+    System.out.println(s2.length());// 字符串的长度
+    System.out.println(s1.equals(s2));// 比较两个字符串是否相等
+    System.out.println(s1.equalsIgnoreCase(s2));// 比较两个字符串（忽略大小写）
+    System.out.println(s1.indexOf("Java"));// 字符串s1中是否包含Java
+    System.out.println(s1.indexOf("apple"));// 字符串s1中是否包含apple
+    String s = s1.replace(' ', '&');// 将s1中的空格替换成&
+    System.out.println("result is :" + s);
+  }
+}
 
+```
 
+## 五. 数组：
 
+**数组是相同类型数据的有序集合。数组描述的是相同类型的若干个数据，按照一定的先后次序排列组合而成**
 
+### 5.1 定义
 
+```java
+type [] arr_name;
+
+class Man{
+    private int age;
+    private int id;
+    public Man(int id,int age) {
+        super();
+        this.age = age;
+        this.id = id;
+    }
+}
+public class AppMain {
+    public static void main(String[] args) {
+        Man[] mans;  //声明引用类型数组； 
+        mans = new Man[10];  //给引用类型数组分配空间；
+         
+        Man m1 = new Man(1,11);
+        Man m2 = new Man(2,22);  
+         
+        mans[0]=m1;//给引用类型数组元素赋值；
+        mans[1]=m2;//给引用类型数组元素赋值；
+    }
+}
+```
+
+### 5.2 初始化：
+
+> 1.静态初始化：
+>
+> ```java
+> int [] a = {1,2,3,4,4,5,6};
+> Man[] mans = { new Mans(1,1), new Mans(2,2) }; // 静态初始化引用类型数组；
+> ```
+>
+> 2.动态初始化：
+>
+> ```java
+> int[] a1 = new int[2]; // 分配空间
+> a1[0] = 1;
+> a1[1] = 2;
+> ```
+>
+> 3.默认初始化：
+>
+> ```java
+> int a2[] = new int[2]; // 默认值：0,0
+> ```
+
+### 5.3 数组的遍历
+
+```java
+package TestJava;
+
+public class TestArray {
+  public static void main(String[] args) {
+    int[] arr = { 1, 3, 4, 5, 6, 7, 7, 7, 8, 8, 9 };
+    for (int item : arr) {
+      System.out.println(item);
+    }
+    System.out.println("++++++++++++");
+    for (int i = 0; i < arr.length; i++) {
+      System.out.println(arr[i]);
+    }
+  }
+}
+```
+
+113
 
 
 
