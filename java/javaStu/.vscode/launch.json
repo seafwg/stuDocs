@@ -1,0 +1,152 @@
+{
+	// Use IntelliSense to learn about possible attributes.
+	// Hover to view descriptions of existing attributes.
+	// For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+	"version": "0.2.0",
+	"configurations": [
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - TestInnerClass",
+      "request": "launch",
+      "mainClass": "Oop2.TestInnerClass",
+      "projectName": "javaStu_7bfd3639"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - TestInterface",
+      "request": "launch",
+      "mainClass": "Oop2.TestInterface",
+      "projectName": "javaStu_7bfd3639"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - TestAbstract",
+      "request": "launch",
+      "mainClass": "Oop2.TestAbstract",
+      "projectName": "javaStu_7bfd3639"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - TestPloy",
+      "request": "launch",
+      "mainClass": "Oop.TestPloy",
+      "projectName": "javaStu_7bfd3639"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - TestSuper",
+      "request": "launch",
+      "mainClass": "Oop.TestSuper",
+      "projectName": "javaStu_7bfd3639"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - TestEquals",
+      "request": "launch",
+      "mainClass": "Oop.TestEquals",
+      "projectName": "javaStu_7bfd3639"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - TestOverride",
+      "request": "launch",
+      "mainClass": "Oop.TestOverride",
+      "projectName": "javaStu_7bfd3639"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - TestOverride",
+      "request": "launch",
+      "mainClass": "Oop.TestOverride",
+      "projectName": "javaStu_7a26dbf0"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - TestInstanceof",
+      "request": "launch",
+      "mainClass": "Oop.TestInstanceof",
+      "projectName": "javaStu_7a26dbf0"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - TestExtend",
+      "request": "launch",
+      "mainClass": "Oop.TestExtend",
+      "projectName": "javaStu_7a26dbf0"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - TestConstructorOverride",
+      "request": "launch",
+      "mainClass": "Pack.TestConstructorOverride",
+      "projectName": "javaStu_7a26dbf0"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - TestDistance",
+      "request": "launch",
+      "mainClass": "Pack.TestDistance",
+      "projectName": "javaStu_7a26dbf0"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - TestStudents",
+      "request": "launch",
+      "mainClass": "Pack.TestStudents",
+      "projectName": "javaStu_7a26dbf0"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - TestCstr",
+      "request": "launch",
+      "mainClass": "App.TestCstr",
+      "projectName": "javaStu_7a26dbf0"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - TestClass",
+      "request": "launch",
+      "mainClass": "App.TestClass",
+      "projectName": "javaStu_7a26dbf0"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - TestFactoril",
+      "request": "launch",
+      "mainClass": "App.TestFactoril",
+      "projectName": "javaStu_7a26dbf0"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - TestScanner",
+      "request": "launch",
+      "mainClass": "App.TestScanner",
+      "projectName": "javaStu_7a26dbf0",
+      "console": "internalConsole"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - Test",
+      "request": "launch",
+      "mainClass": "App.Test",
+      "projectName": "javaStu_7a26dbf0",
+      "console": "internalConsole"
+    },
+    {
+      "type": "java",
+      "name": "Debug (Launch)-App<javaStu_7a26dbf0>",
+      "request": "launch",
+      "mainClass": "App",
+      "projectName": "javaStu_7a26dbf0",
+      "console": "internalConsole"
+    },
+    {
+      "type": "java",
+      "name": "Debug (Launch)-TestPro<javaStu_7a26dbf0>",
+      "request": "launch",
+      "mainClass": "TestPro",
+      "projectName": "javaStu_7a26dbf0",
+      "console": "internalConsole"
+    }
+  ]
+}
